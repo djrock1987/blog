@@ -1,6 +1,7 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	margin:0;
+	perspective: 1000px;
 }
 header{
 	background: #1c3643;
@@ -134,16 +135,7 @@ input#search{
 	display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.note{
-	width: 385px;
-	margin: 25px 5px;
-}
-.note img{
-	transition: 0.3s;
-}
-.note img:hover {
-	filter: opacity(0.87); 
+
 }
 
 .detalle{
